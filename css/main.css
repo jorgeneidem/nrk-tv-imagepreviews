@@ -7,7 +7,9 @@ html {
 }
 
 body {
-    max-width: 1600px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #444;
 }
 
 .hero__button {
@@ -24,13 +26,6 @@ body {
 .h3 {
     font-weight: 800;
     font-size: 25px;
-    margin: 0;
-    line-height: 1.25;
-}
-
-.h3--fallback {
-    font-weight: 800;
-    font-size: 19px;
     margin: 0;
     line-height: 1.25;
 }
@@ -66,24 +61,17 @@ a, button {
 }
 
 .topmenu {
-    position: relative;
-    z-index: 1000;
-    background-color: rgba(15,29,39,0.4);
     font-weight: 600;
     font-size: 20px;
     line-height: 60px;
     padding: 0 63px;
-    margin: 0 0 10px;
+    margin: 0 0 10px; 
+    text-align: center;
 }
 
 .topmenu__logo {
-    float: left;
-    padding: 4px 0;
-}
-
-.topmenu__logo:hover,
-.topmenu__logo:focus {
-    color: rgba(0,185,242,0.9); 
+    display: inline-block;
+    margin: 20px 0 0 0;
 }
 
 .topmenu__item {
@@ -154,6 +142,14 @@ a, button {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
+}
+
+.screen__laptop {
+    top: 46%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 69.5%;
 }
 
 @keyframes fadeIn { from { opacity:0; } }
